@@ -8,9 +8,9 @@ require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v0.0.0-20251214235550-d15979197a2a
 )
 
-replace (
+<!-- replace (
     github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics => ../../modules/blox-analytics
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify => ../../modules/blox-plugin-netlify
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind => ../../modules/blox-tailwind
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal => ../../modules/blox-plugin-reveal
-)
+) -->
