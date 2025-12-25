@@ -2,115 +2,137 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
+  display: Justin Hoew
+  given: Justin
+  family: Hoew
+  alternate: 'Junhui Li'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - Master
+  - Shanghai
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Machine Learning Specialist
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Hoew is a Machine Learning Specialist with deep expertise in reinforcement learning, modern machine learning techniques, and data-driven decision systems. He has extensive hands-on experience developing autonomous driving prediction algorithms, deploying production-grade models, and optimizing computational performance. Passionate about designing robust, scalable AI systems that deliver real-world impact.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: SenseTime
+    url: https://www.sensetime.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:846173822@qq.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  # - icon: brands/x
+  #   url: https://x.com/JustinHoew
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://github.com/SirupLi-C
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/justinhoew/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=example
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
+  - Deep Reinforcement Learning
+  - Autonomous Driving
+  - Machine Learning
+  - Robotics & SLAM
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS in Automation Systems
+    institution: Technical University of Berlin
+    start: 2018-09-01
+    end: 2021-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
+      Focused on data mining algorithms, robot path planning (RRT, A*), and reinforcement learning in robotic decision-making. GPA: 1.8.
+  - degree: BS in Vehicle Engineering
+    institution: Tongji University
     start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+    end: 2018-07-31
+    summary: |
+      Gained foundational knowledge in automotive mechanical & electrical systems, and automation control (PID, sliding mode, backstepping). GPA: 4.33/5.0.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Prediction Algorithm Engineer
+    org: SenseTime (IAG Autonomous Driving)
+    start: 2023-03-01
+    end: 2024-07-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Optimized lane-change algorithms based on trajectory smoothing to improve human-like driving behavior.
+      - Deployed DTP prediction-planning joint model on vehicle platform with quantization and inference acceleration.
+      - Reduced prediction computing costs via parallel computing and operator fusion.
+      - Enhanced data flow and cross-module communication for autonomous driving systems.
+      - Migrated prediction modules to L4 autonomous driving framework for improved stability and scalability.
+  - role: Prediction Algorithm Engineer
+    org: SAIC AI Lab (formerly SAIC Motor AI Lab)
+    start: 2021-10-01
+    end: 2023-03-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Implemented and optimized deep learning encoders (VectorNet, LaneGCN, GoHome) for trajectory prediction.
+      - Improved trajectory continuity and computational efficiency for real-time autonomous driving.
+      - Deployed and validated LaneGCN model with latency analysis and unit testing.
+      - Developed short-term and lane-sequence prediction combined with HD maps.
+      - Built data closed-loop pipelines for model iteration and scene classification.
+  - role: Robotic Perception & SLAM Intern
+    org: Bosch China
+    start: 2021-07-01
+    end: 2021-10-31
+    summary: |
+      - Built multi-sensor fusion platform with cameras and LiDARs for SLAM calibration.
+      - Tested SOTA semantic segmentation models on KITTI dataset.
+      - Optimized point cloud processing using PCL and RANSAC for real-time performance.
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 5
+      - label: PyTorch
+        level: 5
+      - label: C/C++
+        level: 4
+      - label: ROS
+        level: 4
+      - label: MATLAB/Simulink
+        level: 4
       - label: Machine Learning
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+      - label: Deep Reinforcement Learning
         level: 5
-      - label: Conference Presentations
+      - label: Data Analysis & Visualization
+        level: 5
+      - label: Cloud Computing & Parallel Computing
         level: 4
-      - label: Grant Proposals
+  - name: Domain Knowledge
+    items:
+      - label: Autonomous Driving Prediction
+        level: 5
+      - label: SLAM & Sensor Fusion
         level: 4
+      - label: Robotics & Path Planning
+        level: 4
+      - label: Model Deployment & Optimization
+        level: 5
 
 languages:
-  - name: English
+  - name: Chinese (Mandarin)
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
+  - name: German
+    level: 3
+    label: Intermediate
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: N/A (Optional to add later)
+    awarder: 
+    date: 
+    summary: 
     icon: hero/trophy
